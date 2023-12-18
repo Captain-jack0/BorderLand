@@ -99,8 +99,7 @@
         91,
         92,
         93,
-        94,
-        95
+        94
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -123,7 +122,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 224,
-      "PayloadLength": 33278,
+      "PayloadLength": 33020,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -135,7 +134,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 33588,
+      "PayloadOffset": 33330,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -354,8 +353,6 @@
         "/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
         "/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
         "/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll",
-        "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
-        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs",
         "Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs",
         "Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs",
@@ -388,7 +385,7 @@
         1,
         2,
         3,
-        91
+        90
       ],
       "ToUseDependencies": [
         1,
@@ -510,9 +507,8 @@
         86,
         87,
         88,
-        89,
-        92,
-        93
+        91,
+        92
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 6
@@ -1748,32 +1744,17 @@
       "DebugActionIndex": 88
     },
     {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm\" \"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\"",
-      "Inputs": [
-        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm"
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 89
-    },
-    {
       "Annotation": "WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 33683,
-      "PayloadLength": 7192,
+      "PayloadOffset": 33425,
+      "PayloadLength": 7099,
       "PayloadDebugContentSnippet": "Library/Bee/artifacts/mvdfrm/U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm",
@@ -1863,7 +1844,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_E0ED0B4D5CF1D564.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_B8C1D7CDF5C45B00.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_13ABCE51E62C22C2.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
@@ -1954,12 +1934,11 @@
         86,
         87,
         88,
-        89,
-        90
+        89
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
@@ -1974,7 +1953,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
@@ -1989,29 +1968,26 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/merye/Documents/GitHub/BorderLand/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/merye/Documents/GitHub/BorderLand/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/merye/Documents/GitHub/BorderLand/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Users/merye/Documents/GitHub/BorderLand/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/merye/Documents/GitHub/BorderLand/Library/ScriptAssemblies\" -s=\"/Users/merye/Documents/GitHub/BorderLand/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/merye/Documents/GitHub/BorderLand/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator\" -s=\"/Users/merye/Documents/GitHub/BorderLand/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/merye/Documents/GitHub/BorderLand/Library/ScriptAssemblies/Assembly-CSharp.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/merye/Documents/GitHub/BorderLand/Library/ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
         "/Applications/Unity/Hub/Editor/2022.3.14f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
-        "Library/ScriptAssemblies/Assembly-CSharp.dll",
-        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
-        "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
-        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+        "Library/ScriptAssemblies/Assembly-CSharp.dll"
       ],
       "Outputs": [
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
       ],
       "ToBuildDependencies": [
-        92
+        91
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -2020,10 +1996,10 @@
       "Outputs": [],
       "ToBuildDependencies": [
         6,
-        94
+        93
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 95
+      "DebugActionIndex": 94
     }
   ],
   "FileSignatures": [
@@ -2142,15 +2118,6 @@
     },
     {
       "File": "Library/Bee/200b0aE-inputdata.json"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
     }
   ],
   "GlobSignatures": [
@@ -2177,7 +2144,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 95
+          "ScriptAssembliesAndTypeDB": 94
         }
 ,  "DefaultNodes": [
     0
