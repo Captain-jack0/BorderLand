@@ -344,6 +344,13 @@
 "Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs"
 "Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs"
 "Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs"
+"Assets/Systems/Scripts/Lift.cs"
+"Assets/Systems/Scripts/LiftController.cs"
+"Assets/Systems/Scripts/LiftFloor.cs"
+"Assets/Systems/Scripts/Menu_UI.cs"
+"Assets/Systems/Scripts/ParentPlatfrom.cs"
+"Assets/Systems/Scripts/Start_btn.cs"
+"Assets/Systems/Scripts/Up_button.cs"
 -langversion:9.0
 
 /deterministic

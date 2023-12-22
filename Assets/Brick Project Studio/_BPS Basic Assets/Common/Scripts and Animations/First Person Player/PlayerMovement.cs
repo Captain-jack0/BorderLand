@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace SojaExiles
 
 {
@@ -33,5 +34,7 @@ namespace SojaExiles
             controller.Move(velocity * Time.deltaTime);
 
         }
+
+  
     }
 }

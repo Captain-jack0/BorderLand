@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button text="START" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start_Game_btn" />
+    <ui:Button text="QUİT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Quit_Game_btn" />
+</ui:UXML>
